@@ -3,6 +3,7 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
   font-family: 'Nunito', sans-serif;
+  font-weight: bold;
 }
 
 .header {
@@ -47,7 +48,7 @@ body {
 .history-text {
   font-size: 15px;
   color: #ffffff;
-  font-weight: bold;
+  font-size: 16px;
   line-height: 20px;
   padding: 0 30px;
   text-align: center;
@@ -86,4 +87,18 @@ body {
 .video {
   width: 100% !important;
   height: auto !important;
+}
+
+.play-button {
+  align-items: center;
+  background: url(/images/botao1.png);
+  background-size: 100%;
+  color: #faffff;
+  display: flex;
+  font-size: 20px;
+  justify-content: center;
+  margin: 20px auto;
+  height: 50px;
+  text-decoration: none;
+  width: 196px;
 }
