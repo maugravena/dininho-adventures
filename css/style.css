@@ -1,0 +1,54 @@
+body {
+  background: linear-gradient(
+    180.58deg,
+    #7e5002 25.7%,
+    #e69405 44.23%,
+    #fad121 98.65%
+  );
+  height: 100vh;
+  font-family: 'Nunito', sans-serif;
+}
+
+.main-title {
+  color: #fcfdfc;
+  font-size: 28px;
+  font-style: normal;
+  line-height: 36px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #fcfdfc;
+  font-family: 'Bungee', sans-serif;
+}
+
+.history-text {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 20px;
+  text-align: center;
+}
+
+.egg {
+  background: url(../images/ovo1.svg);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  height: 22px;
+  width: 18px;
+}
+
+.separator {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.separator::before,
+.separator::after {
+  background-color: #fff;
+  border-radius: 5px 0px 0px 5px;
+  content: '';
+  display: inline-block;
+  height: 2px;
+  width: 45%;
+}
