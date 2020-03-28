@@ -1,12 +1,25 @@
 body {
-  background: linear-gradient(
-    180.58deg,
-    #7e5002 25.7%,
-    #e69405 44.23%,
-    #fad121 98.65%
-  );
+  background-color: #fad121;
+  background-repeat: no-repeat;
   height: 100vh;
   font-family: 'Nunito', sans-serif;
+}
+
+.header {
+  background: url(../images/bg-dininho.png);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+.logo {
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  width: 70%;
 }
 
 .main-title {
@@ -15,9 +28,20 @@ body {
   font-style: normal;
   line-height: 36px;
   margin-bottom: 50px;
+  padding: 40px 8px 0 8px;
+
   text-align: center;
   color: #fcfdfc;
   font-family: 'Bungee', sans-serif;
+}
+
+.history {
+  background: linear-gradient(
+    180.58deg,
+    #7e5002 25.7%,
+    #e69405 90%,
+    #fad121 98.65%
+  );
 }
 
 .history-text {
@@ -25,7 +49,9 @@ body {
   color: #ffffff;
   font-weight: bold;
   line-height: 20px;
+  padding: 0 30px;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .egg {
@@ -51,4 +77,13 @@ body {
   display: inline-block;
   height: 2px;
   width: 45%;
+}
+
+.play-game {
+  margin-top: 20px;
+}
+
+.video {
+  width: 100% !important;
+  height: auto !important;
 }
