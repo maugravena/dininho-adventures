@@ -72,6 +72,15 @@ body {
   width: 18px;
 }
 
+.basket-eggs {
+  background: url(../images/ninho.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  height: 58px;
+  width: 70px;
+}
+
 .separator {
   align-items: center;
   display: flex;
@@ -125,11 +134,42 @@ body {
   color: #3d1132;
 }
 
-.basket-eggs {
-  background: url(../images/ninho.png);
+footer {
+  padding-bottom: 50px;
+}
+
+footer > p {
+  color: #050914;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.social > li:not(:last-child) {
+  margin-right: 50px;
+}
+
+.icon {
   background-repeat: no-repeat;
   display: block;
-  margin: 0 auto;
-  height: 58px;
-  width: 70px;
+  height: 30px;
+  width: 30px;
+}
+
+.icon[href*='twitch'] {
+  background-image: url(../images/twitch.svg);
+}
+
+.icon[href*='twitter'] {
+  background-image: url(../images/twitter.svg);
+}
+
+.icon[href*='discord'] {
+  background-image: url(../images/discord.svg);
 }
