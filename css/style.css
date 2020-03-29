@@ -9,11 +9,25 @@ body {
   line-height: 20px;
 }
 
+@media (min-width: 1280px) {
+  body {
+    font-size: 24px;
+  }
+}
+
 .title {
   font-family: 'Bungee', sans-serif;
   font-size: 26px;
   padding-bottom: 20px;
   text-align: center;
+}
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: 48px;
+    letter-spacing: 15px;
+    padding-top: 20px;
+  }
 }
 
 .header {
@@ -25,12 +39,25 @@ body {
   width: 100%;
 }
 
+@media (min-width: 1280px) {
+  .header {
+    height: 720px;
+  }
+}
+
 .logo {
   left: 50%;
   position: relative;
   transform: translate(-50%, -50%);
   top: 50%;
   width: 70%;
+}
+
+@media (min-width: 1280px) {
+  .logo {
+    width: 40%;
+    top: 25%;
+  }
 }
 
 .main-title {
@@ -46,21 +73,34 @@ body {
   font-family: 'Bungee', sans-serif;
 }
 
+@media (min-width: 1280px) {
+  .main-title {
+    font-size: 50px;
+    padding: 55px 8px 0 8px;
+  }
+}
+
 .history {
-  background: linear-gradient(
-    180.58deg,
-    #7e5002 25.7%,
-    #e69405 90%,
-    #fad121 98.65%
-  );
+  background: linear-gradient(180.58deg, #7e5002 0%, #e69405 50%, #fad121 100%);
   padding: 0 22px;
 }
 
+@media (min-width: 1280px) {
+  .history-text {
+    margin: 0 auto;
+    max-width: 960px;
+  }
+}
+
 .history-text {
-  font-size: 15px;
   color: #ffffff;
-  font-size: 16px;
   text-align: center;
+}
+
+@media (min-width: 1280px) {
+  .history-text {
+    line-height: 33px;
+  }
 }
 
 .egg {
@@ -70,6 +110,14 @@ body {
   margin: 0 auto;
   height: 22px;
   width: 18px;
+}
+
+@media (min-width: 1280px) {
+  .egg {
+    background: url(../images/ovo1g.png);
+    height: 43px;
+    width: 35px;
+  }
 }
 
 .basket-eggs {
@@ -88,19 +136,41 @@ body {
   margin: 20px 0;
 }
 
+@media (min-width: 1280px) {
+  .separator {
+    margin: 40px 0;
+    padding: 0 170px;
+  }
+}
+
 .separator::before,
 .separator::after {
   background-color: #fff;
-  border-radius: 5px 0px 0px 5px;
+  border-radius: 5px;
   content: '';
   display: inline-block;
   height: 2px;
   width: 45%;
 }
 
+@media (min-width: 1280px) {
+  .separator::before,
+  .separator::after {
+    height: 4px;
+  }
+}
+
 .video {
   width: 100% !important;
   height: auto !important;
+}
+
+@media (min-width: 1280px) {
+  .video {
+    display: block;
+    margin: 0 auto;
+    width: 90% !important;
+  }
 }
 
 .play-button {
@@ -117,8 +187,26 @@ body {
   width: 196px;
 }
 
+@media (min-width: 1280px) {
+  .play-button {
+    font-size: 30px;
+    height: 81px;
+    width: 320px;
+  }
+}
+
 .game-description {
   padding: 0 22px;
+}
+
+@media (min-width: 1280px) {
+  .list-description {
+    text-align: center;
+    line-height: 33px;
+    margin: 0 auto;
+    padding-top: 40px;
+    width: 960px;
+  }
 }
 
 .list-description > li {
@@ -126,12 +214,33 @@ body {
   margin-bottom: 10px;
 }
 
+@media (min-width: 1280px) {
+  .list-description > li {
+    margin-bottom: 20px;
+  }
+}
+
 .requirements {
   padding: 0 22px;
 }
 
+@media (min-width: 1280px) {
+  .requirements {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
 .requirements > dl {
   color: #3d1132;
+}
+
+@media (min-width: 1280px) {
+  .requirements > dl {
+    line-height: 33px;
+    margin-top: 40px;
+  }
 }
 
 footer {
