@@ -124,3 +124,12 @@ body {
 .requirements > dl {
   color: #3d1132;
 }
+
+.basket-eggs {
+  background: url(../images/ninho.png);
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;
+  height: 58px;
+  width: 70px;
+}
