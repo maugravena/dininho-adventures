@@ -9,6 +9,13 @@ body {
   line-height: 20px;
 }
 
+.title {
+  font-family: 'Bungee', sans-serif;
+  font-size: 26px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
 .header {
   background: url(../images/bg-dininho.png);
   background-repeat: no-repeat;
@@ -82,9 +89,6 @@ body {
   width: 45%;
 }
 
-.play-game {
-}
-
 .video {
   width: 100% !important;
   height: auto !important;
@@ -108,14 +112,15 @@ body {
   padding: 0 22px;
 }
 
-.title-description {
-  font-family: 'Bungee', sans-serif;
-  font-size: 26px;
-  padding-bottom: 20px;
-  text-align: center;
-}
-
 .list-description > li {
   color: #3d1132;
   margin-bottom: 10px;
+}
+
+.requirements {
+  padding: 0 22px;
+}
+
+.requirements > dl {
+  color: #3d1132;
 }
