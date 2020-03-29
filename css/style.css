@@ -1,9 +1,12 @@
 body {
   background-color: #fad121;
   background-repeat: no-repeat;
+  color: #73263d;
   height: 100vh;
   font-family: 'Nunito', sans-serif;
+  font-size: 15px;
   font-weight: bold;
+  line-height: 20px;
 }
 
 .header {
@@ -43,16 +46,14 @@ body {
     #e69405 90%,
     #fad121 98.65%
   );
+  padding: 0 22px;
 }
 
 .history-text {
   font-size: 15px;
   color: #ffffff;
   font-size: 16px;
-  line-height: 20px;
-  padding: 0 30px;
   text-align: center;
-  margin-bottom: 20px;
 }
 
 .egg {
@@ -68,6 +69,7 @@ body {
   align-items: center;
   display: flex;
   justify-content: center;
+  margin: 20px 0;
 }
 
 .separator::before,
@@ -81,7 +83,6 @@ body {
 }
 
 .play-game {
-  margin-top: 20px;
 }
 
 .video {
@@ -101,4 +102,20 @@ body {
   height: 50px;
   text-decoration: none;
   width: 196px;
+}
+
+.game-description {
+  padding: 0 22px;
+}
+
+.title-description {
+  font-family: 'Bungee', sans-serif;
+  font-size: 26px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.list-description > li {
+  color: #3d1132;
+  margin-bottom: 10px;
 }
